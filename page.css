@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+}
+.out{
+    background-color: #6586ff;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 500px;
+    width: 1000px;
+    margin: auto;
+    position: absolute;transform: skewX(10deg);
+    border-radius: 40px;
+}
+.body{
+    background: url("b.jpg");
+    background-color: antiquewhite;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 500px;
+    width: 1000px;
+    margin: auto;
+    position: absolute;
+    text-align: center;
+    color: #fff;
+    border: 5px solid rgb(5, 5, 100);
+    border-radius: 12px;
+    position: absolute;transform: rotate(3deg);
+}
+.body h1{
+    margin: auto;
+    padding: 10px;
+    position: absolute;
+    text-align: center;
+    height: 15px;
+    width: 100%;
+    letter-spacing:10px ;
+}
+#img{
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 500px;
+    width: 1000px;
+    margin: auto;
+    position: absolute;
+}
+.first{
+    background-color: darkmagenta;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 50%;
+    width: 30%;
+    margin: auto;
+    position: absolute;
+    opacity: 0.8;
+}
+.second{
+    background-color: crimson;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 50%;
+    width: 30%;
+    margin-left: 70%;
+    position: absolute;
+    opacity: 0.8;
+}
+.third{
+    background-color: rgb(253, 159, 128);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 50%;
+    width: 30%;
+    margin-left: 0%;
+    margin-top: 25%;
+    position: absolute;
+    opacity: 0.4;
+}
+input[type="text"], input[type="date"], input[type="email"] {
+    background-color: rgb(255, 255, 255);
+    margin-top: 20%;
+    height: 50px;
+    width: 60%;
+    text-align: center;
+    cursor: pointer;
+}
+input[type="button"]{
+    background-color: rgb(5, 5, 100);
+    margin-top: 20%;
+    height: 40px;
+    width: 50%;
+    text-align: center;
+    cursor: pointer;
+    color: #fff;
+}
+.squares :hover{
+    opacity: 1;
+    border-radius: 7px;
+    box-shadow: 5px 5px 5px rgb(40, 80, 120);
+    font-size: 20px;
+}
+.end{
+    bottom: 0;
+    right: 0;
+    padding: 1px;
+    height: 20px;
+    width: 160px;
+    margin: auto;
+    position: absolute;
+    text-align: center;
+    color: #fff;
+}
